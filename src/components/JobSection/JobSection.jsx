@@ -24,9 +24,9 @@ const JobSection = ({ job,onClick }) => {
         </div>
         <div className=" flex flex-col justify-between">
           <div className="flex gap-5">
-            <h4 className="text-xl font-bold text-desaturated-dark-cyan">
+            <h3 className="text-xl font-bold text-desaturated-dark-cyan">
               {job.company}
-            </h4>
+            </h3>
             {job.new && (
               <span className="px-2 pt-1   bg-desaturated-dark-cyan rounded-full font-bold text-sm flex items-center text-white">
                 NEW!
